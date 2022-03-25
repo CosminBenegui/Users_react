@@ -4,8 +4,8 @@ function Button(props) {
   return (
     <button
       className={classes.button}
-      type={props.type || 'button'}
-      onClick={props.onCLick}
+      type={props.type || "button"}
+      onClick={props.onClick}
     >
       {props.children}
     </button>
